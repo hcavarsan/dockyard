@@ -74,6 +74,23 @@ sudo apt-get install -f
 
 ```
 
+> [!NOTE]
+> **macOS aarch64 Installation Instructions:**
+> 
+> Due to Apple's security policies, software without developer certification cannot be installed directly. To bypass this restriction, follow these steps:
+> 
+> 1. Open the Terminal.
+> 2. Navigate to the `Applications` directory:
+>    ```sh
+>    cd /Applications
+>    ```
+> 3. Execute the following command:
+>    ```sh
+>    xattr -cr MarkFlowy.app
+>    ```
+> 4. Open the app.
+> 
+
 
 #### Using AppImage file
 ```bash
@@ -105,6 +122,7 @@ cargo build --release
 # Run the app in development mode
 npm run tauri dev
 ```
+
 
 ## Usage
 
