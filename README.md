@@ -80,6 +80,7 @@ sudo apt-get install -f
 > Due to Apple's security policies, software without developer certification cannot be installed directly. To bypass this restriction, follow these steps:
 > 
 > 1 - Click the Cancel button
+> 
 > 2 - Go to System Preferences -> Security & Privacy, click Open Anyway, and then click Open in the pop-up window. 
 >
 > If your system version is higher, you may not find the above options on the Security & Privacy page, or it may prompt that the file is damaged when you start it. Open the terminal and execute the following command to authorize.
